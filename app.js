@@ -244,7 +244,7 @@ function findData(transcript) {
 function readData(message) {
 
     // VALIDATING THAT THE ANSWER IS AVAILABLE
-    message = (message == false)? "Uff Bujlam Na" : message;
+    message = (message == false)? "say it again" : message;
 
     const speech = new SpeechSynthesisUtterance();
     speech.text = message;
@@ -324,18 +324,13 @@ function handleInput(event) {
         herName = target.value;
         localStorage.setItem('herName', herName);
     }
-
     assignData(yourName, herName)
 }
-
 // HANDLING TALKBACK SWITCH
 function handleSwitch() {
     talkBack = talkBackSwitch.checked;
 }
-
-
 // EVENT LISTENER
-
 settingsBtn.addEventListener('click', showHide);
 addBtn.addEventListener('click', addNewData);
 contentImg.addEventListener('click', () => {
