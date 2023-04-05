@@ -78,7 +78,7 @@ function assignData(yourName, herName) {
         {
             title       :   'Propose',
             questions   :   ['I Love You', 'Love You'],
-            ans         :   ['I Love You Two', 'Love You', 'Amio Tumake ValoBashi', 'Love You Sweetheart'],
+            ans         :   ['I Love You Two', 'Love You', 'Love You Sweetheart'],
         },
         {
             title       :   'Her Name',
