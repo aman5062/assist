@@ -323,6 +323,8 @@ function handleInput(event) {
     }else if(target.dataset.target == "herName"){
         herName = target.value;
         localStorage.setItem('herName', herName);
+    }else if(target.dataset.target == "Bye"){
+        location.reload();
     }
 
     assignData(yourName, herName)
