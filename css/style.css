@@ -7,7 +7,11 @@
           box-sizing: border-box;
   outline: none;
 }
-
+#repeat{
+  color: white;
+  background-color: transparent;
+  position: absolute;
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
